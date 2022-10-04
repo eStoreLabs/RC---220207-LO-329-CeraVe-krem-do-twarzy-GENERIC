@@ -10,7 +10,7 @@
 
 ## PROJECT PREVIEW
 
-![Design preview for the project](https://drive.google.com/file/d/1Pt-mi8yb-L2HHTvIN091n4SkWP3t1r6U/view)
+![Design preview for the project](https://github.com/eStoreLabs/RC---220207-LO-329-CeraVe-krem-do-twarzy-GENERIC/blob/main/readme/Krem%20do%20twarzy.png?raw=true)
 
 ### LINKS TO DESIGNS (in .xd or .psd)
 
