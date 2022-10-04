@@ -78,6 +78,7 @@ $black: #252525;
       position: absolute;
       top: 55%;
       left: 24px;
+      width: 120px;
     }
     &__product {
       width: 100%;
@@ -93,7 +94,7 @@ $black: #252525;
       color: $primary;
     }
     &__subheader {
-      margin: 15px 0;
+      margin: 20px 0;
     }
     &__subheader,
     &__text {
@@ -135,12 +136,13 @@ $black: #252525;
     }
 
     &__subheader {
-      margin-bottom: 15px;
+      margin-bottom: 25px;
       @include secondary-header;
     }
 
     &__text {
       @include basic-text;
+      font-size: 17px;
     }
 
     &__single {
@@ -171,6 +173,7 @@ $black: #252525;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       width: 216px;
       height: 180px;
     }
@@ -182,6 +185,11 @@ $black: #252525;
     &__disclaimer {
       margin: 40px 20px;
       line-height: 1.3;
+    }
+    &__disclaimer-title {
+      @include basic-text;
+      text-align: center;
+      font-size: 22px;
     }
   }
 
@@ -332,7 +340,8 @@ $black: #252525;
       }
     }
     &__image {
-      width: 100%;
+      max-width: 150px;
+      margin-bottom: 20px;
     }
 
     &__button {
@@ -370,7 +379,7 @@ $black: #252525;
         max-width: 450px;
       }
       &__text-container {
-        margin: 40px 0 40px 40px;
+        margin: 90px 0 40px 40px;
         width: 40%;
       }
       &__label {
@@ -383,7 +392,7 @@ $black: #252525;
       }
     }
     .es-solution {
-      margin: 40px 0 0 0;
+      margin: 65px 0 0 0;
       flex-direction: row;
       justify-content: space-around;
       align-items: flex-start;
@@ -416,7 +425,11 @@ $black: #252525;
         justify-content: center;
       }
       &__disclaimer {
-        margin: 40px 6% 40px 6%;
+        margin: 40px 4% 40px 4%;
+      }
+      &__disclaimer-title {
+        margin: 0;
+        font-size: 30px;
       }
     }
 
@@ -460,13 +473,62 @@ $black: #252525;
     }
   }
 
+  @media screen and (min-width: 850px) {
+    .es-band {
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 485px;
+        top: -50px;
+        transform: translateX(-45%);
+        background: url(./images/band-bg.png) left top no-repeat;
+        background-size: contain;
+      }
+      &__icons {
+        justify-content: right;
+      }
+      &__disclaimer-title {
+        font-size: 27px;
+      }
+      &__disclaimer {
+        margin-top: 30px;
+        font-size: 15px;
+      }
+    }
+
+    .es-products {
+      &__image {
+        max-width: 175px;
+        min-height: 345px;
+        margin-bottom: 43px;
+      }
+      &__text {
+        width: 324px;
+        font-size: 18px;
+      }
+    }
+  }
+
   @media screen and (min-width: 930px) {
     .es-band {
       &__icons {
         margin-right: 50px;
       }
+
+      &::before {
+        transform: translateX(-25%);
+      }
     }
     .es-kv {
+      &__logo {
+        top: 120px;
+      }
+      &__label {
+        width: 130px;
+      }
       &__images-container {
         padding: 40px 0 0 40px;
       }
