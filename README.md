@@ -6,7 +6,7 @@
 
 <!-- please enter link to site preview here -->
 
-![Project live site](./link)
+[Project live site](https://estorelabs.github.io/RC---220207-LO-329-CeraVe-krem-do-twarzy-GENERIC/)
 
 ## PROJECT PREVIEW
 
@@ -14,7 +14,7 @@
 
 ### LINKS TO DESIGNS (in .xd or .psd)
 
-![.psd](https://drive.google.com/drive/folders/1OuCEQVswITHtejXhriEF_4blEuHVYwiC)
+[.psd:](https://drive.google.com/drive/folders/1OuCEQVswITHtejXhriEF_4blEuHVYwiC)
 
 <!-- please enter link to preview designs -->
 
