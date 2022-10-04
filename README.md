@@ -14,7 +14,7 @@
 
 ### LINKS TO DESIGNS (in .xd or .psd)
 
-[.psd:](https://drive.google.com/drive/folders/1OuCEQVswITHtejXhriEF_4blEuHVYwiC 'Link')
+[.psd link](https://drive.google.com/drive/folders/1OuCEQVswITHtejXhriEF_4blEuHVYwiC)
 
 <!-- please enter link to preview designs -->
 
